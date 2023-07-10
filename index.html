@@ -185,7 +185,11 @@
             <a
               class="btn btn-lg btn-primary rounded-5"
               href="#"
-              style="background-color: #5e068a; text-transform: uppercase"
+              style="
+                background-color: #5e068a;
+                text-transform: uppercase;
+                border: #5e068a;
+              "
               >Learn More</a
             >
           </div>
@@ -218,15 +222,17 @@
         </div>
       </div>
 
-      <button
-        type="button"
-        class="btn btn-primary w-25 rounded-5 mb-3 ms-3 fixed-bottom p-3"
-        data-bs-toggle="modal"
-        data-bs-target="#exampleModal"
-        style="background-color: #5e068a; border: none"
-      >
-        <i class="bi bi-window"></i> MODAL FORM
-      </button>
+      <div class="mb-3 ms-3 fixed-bottom">
+        <button
+          type="button"
+          class="shadow-lg btn btn-primary w-25 rounded-5 p-3"
+          data-bs-toggle="modal"
+          data-bs-target="#exampleModal"
+          style="background-color: #5e068a; border: #5e068a solid"
+        >
+          <i class="bi bi-window"></i> MODAL FORM
+        </button>
+      </div>
 
       <div
         class="modal fade"
